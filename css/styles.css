@@ -1,0 +1,147 @@
+body {
+  background-color: #fff;
+  font-family: "Roboto";
+}
+ul {
+  list-style-type: none;
+}
+.nav-header {
+  color: #000;
+}
+.contact {
+  color: #434455;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+font-style: normal;
+}
+.hero-image {
+  background-color: #2e2f42;
+  box-sizing: border-box;
+
+  width: 1440px;
+  height: 600px;
+  left: 12px;
+  top: 72px;
+  background: #2e2f42;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero-title {
+  color: #fff;
+  width: 494px;
+  position: absolute;
+  height: 120px;
+  left: 485px;
+  top: 260px;
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 648px;
+  top: 428px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #e4e4e4;
+  opacity: 0.9;
+}
+
+.about-title {
+  color: #2e2f42;
+  width: 264px;
+  height: 24px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.about-info {
+  color: #434455;
+  width: 264px;
+  height: 72px;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.title-doing {
+  color: #2e2f42;
+  width: 323px;
+  height: 40px;
+  left: 559px;
+  top: 1016px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.out-team-title {
+  color: #2e2f42;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.out-team-name {
+  color: #2e2f42;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.decision-maker-title {
+  color: #434455;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+.under {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 310px;
+  left: -12px;
+  top: 2280px;
+}
+.title-company {
+  width: 115px;
+  height: 22px;
+  left: 144px;
+  top: 2380px;
+}
+.under-info {
+  color: #e7e9fc;
+  width: 264px;
+  height: 72px;
+  left: 144px;
+  top: 2418px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
