@@ -5,6 +5,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header {
+  background-color: #e7e9fc;
+}
 .list {
   list-style-type: none;
 }
@@ -29,7 +32,6 @@ body {
 .nav-header:hover,
 .nav-header:focus {
   color: #404bbf;
-  opacity: 1;
 }
 .contact {
   color: #434455;
@@ -39,7 +41,6 @@ body {
 .contact:hover,
 .contact:focus {
   color: #404bbf;
-  opacity: 1;
 }
 .hero-image {
   background-color: #2e2f42;
@@ -65,8 +66,9 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-  opacity: 1;
 }
+
+
 .about-title {
   color: #2e2f42;
   font-weight: 500;
@@ -83,6 +85,9 @@ body {
   line-height: 1.11;
 }
 
+.out-team {
+  background-color: #f4f4fd;
+}
 .out-team-title {
   color: #2e2f42;
   font-size: 36px;
@@ -119,6 +124,7 @@ body {
 .logo-studio-under {
   color: #f4f4fd;
 }
+
 .filter-button {
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -134,5 +140,4 @@ body {
 .filter-button:focus {
   color: #fff;
   background-color: #404bbf;
-  opacity: 1;
 }
