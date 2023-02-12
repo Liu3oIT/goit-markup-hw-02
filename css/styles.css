@@ -1,19 +1,28 @@
+:root {
+  --color-site: #fff;
+  --color-primary: #4d5ae5;
+  --color-brand: #2e2f42;;
+  --color-secondary: #434455;
+  --color-background: #404bbf;
+  --color-background-secondary: #e7e9fc;
+  --color-title-secondary: #f4f4fd; 
+}
 body {
-  background-color: #fff;
-  font-family: "Roboto, Sans-Serif";
+  background-color: var(--color-site);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .header {
-  background-color: #e7e9fc;
+  background-color: var(--color-site);
 }
 .list {
   list-style-type: none;
 }
 .logo {
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-primary);
   font-family: "Raleway";
   letter-spacing: 0.03em;
   font-weight: 800;
@@ -22,39 +31,39 @@ body {
   text-decoration: none;
 }
 .logo-studio {
-  color: #2e2f42;
+  color: var(--color-brand);
 }
 .nav-header {
-  color: #2e2f42;
+  color: var(--color-brand);
   text-decoration: none;
   font-weight: 500;
 }
 .nav-header:hover,
 .nav-header:focus {
-  color: #404bbf;
+  color: var(--color-background);
 }
 .contact {
-  color: #434455;
+  color: var(--color-secondary);
   text-decoration: none;
   font-style: normal;
 }
 .contact:hover,
 .contact:focus {
-  color: #404bbf;
+  color: var(--color-background);
 }
 .hero-image {
-  background-color: #2e2f42;
+  background-color: var(--color-brand);
 }
 .hero-title {
-  color: #fff;
+  color: var(--color-site);
   width: 494px;
   font-size: 56px;
   line-height: 1.2;
   text-align: center;
 }
 .hero-button {
-  color: #fff;
-  background-color: #4d5ae5;
+  color: var(--color-site);
+  background-color: var(--color-primary);
   cursor: pointer;
   padding: 16px 32px;
   font-size: 16px;
@@ -65,54 +74,53 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-background);
 }
 
-
 .about-title {
-  color: #2e2f42;
+  color: var(--color-brand);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 .about-info {
-  color: #434455;
+  color: var(--color-secondary);
 }
 
 .title-doing {
-  color: #2e2f42;
+  color: var(--color-brand);
   font-size: 36px;
   line-height: 1.11;
 }
 
 .out-team {
-  background-color: #f4f4fd;
+  background-color: var(--color-title-secondary);
 }
 .out-team-title {
-  color: #2e2f42;
+  color: var(--color-brand);
   font-size: 36px;
   line-height: 1.11;
 }
 .out-team-name {
-  color: #2e2f42;
+  color: var(--color-brand);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 .decision-maker-title {
-  color: #434455;
+  color: var(--color-secondary);
 }
 .under {
-  background-color: #2e2f42;
+  background-color: var(--color-brand);
 }
 .title-company {
-  color: #f4f4fd;
+  color: var(--color-title-secondary);
 }
 .under-info {
-  color: #e7e9fc;
+  color: var(--color-background-secondary);
 }
 .logo-under {
-  color: #4d5ae5;
+  color: var(--color-primary);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -122,12 +130,12 @@ body {
   text-decoration: none;
 }
 .logo-studio-under {
-  color: #f4f4fd;
+  color: var(--color-title-secondary);
 }
 
 .filter-button {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--color-primary);
+  background-color: var(--color-title-secondary);
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -138,6 +146,6 @@ body {
 }
 .filter-button:hover,
 .filter-button:focus {
-  color: #fff;
-  background-color: #404bbf;
+  color: var(--color-site);
+  background-color: var(--color-background);
 }
